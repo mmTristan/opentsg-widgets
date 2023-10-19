@@ -18,6 +18,10 @@
             "enum": ["builtin.qrcode"],
             "description": "This to be labelled as \"builtin.qrcode\", so that the json is correclty configured"
         },
+        "ColorSpace": {
+                "type": "object",
+                "description": "The alpha colourspace information"
+                },
         "gridPosition": {
             "type": "object",
             "properties": {

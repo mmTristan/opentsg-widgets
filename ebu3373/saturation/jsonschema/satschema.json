@@ -22,7 +22,11 @@
 				"enum":["red", "green", "blue"]
             },
             "uniqueItems": true
-        }
+        },
+        "ColorSpace": {
+                "type": "object",
+                "description": "The alpha colourspace information"
+                }
     },
     "required": [
         "grid",

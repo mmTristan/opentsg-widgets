@@ -78,7 +78,11 @@
             },
             "description": "The x y location of zoneplate in pixels, where 0,0 is in the top left point of the image",
             "additionalProperties": false
-        }
+        },
+        "ColorSpace": {
+                "type": "object",
+                "description": "The alpha colourspace information"
+                }
     },
     "required": [
         "platetype",

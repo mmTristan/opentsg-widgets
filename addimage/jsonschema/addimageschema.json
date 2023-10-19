@@ -53,7 +53,11 @@
             },
             "additionalProperties":false ,
 			"description": "The x y location of image in pixels, where 0,0 is in the top left point of the image, if left empty then it is added to the top left of the testcard."
-        } 
+        },
+        "ColorSpace": {
+                "type": "object",
+                "description": "The alpha colourspace information"
+                } 
     },
     "required": ["image","type",	"grid"],
     "additionalProperties":false,

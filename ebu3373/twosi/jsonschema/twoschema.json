@@ -14,7 +14,11 @@
                 "builtin.ebu3373/twosi"
             ],
             "description": "This to be labelled as \"builtin.ebu3373/twosi\", so that the json is correctly configured"
-        }
+        },
+        "ColorSpace": {
+                "type": "object",
+                "description": "The alpha colourspace information"
+                }
     },
     "required": [
         "grid",

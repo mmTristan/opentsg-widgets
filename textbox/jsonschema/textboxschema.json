@@ -40,7 +40,11 @@
 		},
 		"bordercolor": {
 			"$ref": "#/$defs/anycolour"
-		}
+		},
+		"ColorSpace": {
+				"type": "object",
+				"description": "The alpha colourspace information"
+				}
 	},
 	"required": [
 		"type",
